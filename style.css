@@ -27,3 +27,15 @@ header {
     50% { transform: translateY(-10px); }
     100% { transform: translateY(0); }
 }
+
+#founder {
+    background-color: #e1f0f7;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.about {
+    background-color: #d3e8f5;
+    padding: 20px;
+    margin-top: 20px;
+}
