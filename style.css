@@ -32,6 +32,7 @@ header { background: #1E3A5F; }
 /* Hero */
 .hero {
   position: relative;
+  .hero {
   background: url('scrap-metal-image.jpg') center/cover no-repeat;
   height: 80vh;
   display: flex;
