@@ -1,4 +1,4 @@
-/* Reset default margin and padding */
+/* General Styles */
 * {
     margin: 0;
     padding: 0;
@@ -41,7 +41,7 @@ header nav ul li a {
     color: white;
     text-align: center;
     padding: 100px 20px;
-    background-image: url('scrap-metal-image.jpg'); /* Ensure this is the correct path */
+    background-image: url('scrap-metal-image.jpg'); /* Ensure the image path is correct */
     background-size: cover;
     background-position: center;
 }
@@ -85,4 +85,51 @@ header nav ul li a {
 }
 
 .hero-text .btn:hover {
-    background-color:
+    background-color: #e04b28;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#about, #founder {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 20px;
+    transition: all 0.3s ease;
+}
+
+#about:hover, #founder:hover {
+    transform: translateY(-10px);
+}
+
+#services ul {
+    list-style-type: none;
+}
+
+#services ul li {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #1e3d58;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 1.1em;
+}
