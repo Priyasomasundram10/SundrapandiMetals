@@ -1,8 +1,6 @@
-/* Reset & base */
+/* Reset & Base */
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body { font-family: Arial, sans-serif; color: #333; line-height: 1.6; }
-
-/* Containers */
 .container { max-width: 1200px; margin: 0 auto; }
 
 /* Header */
@@ -32,7 +30,6 @@ header { background: #1E3A5F; }
 /* Hero */
 .hero {
   position: relative;
-  .hero {
   background: url('scrap-metal-image.jpg') center/cover no-repeat;
   height: 80vh;
   display: flex;
@@ -40,7 +37,8 @@ header { background: #1E3A5F; }
   justify-content: center;
 }
 .hero .overlay {
-  position: absolute; inset: 0;
+  position: absolute;
+  inset: 0;
   background: rgba(0,0,0,0.5);
 }
 .hero-content {
@@ -74,9 +72,14 @@ header { background: #1E3A5F; }
 }
 .about-text,
 .services { flex: 1 1 300px; }
+
 .about-text h3,
 .services h3,
-.founder-section h3 { font-size: 28px; margin-bottom: 20px; text-transform: uppercase; }
+.founder-section h3 { 
+  font-size: 28px; 
+  margin-bottom: 20px; 
+  text-transform: uppercase; 
+}
 .about-text p,
 .services p { font-size: 16px; margin-bottom: 15px; }
 
@@ -92,7 +95,7 @@ header { background: #1E3A5F; }
   margin-bottom: 5px;
 }
 
-/* Founder Footer */
+/* Founder Section */
 .founder-section {
   background: #f4f4f4;
   padding: 40px 20px;
@@ -103,7 +106,7 @@ header { background: #1E3A5F; }
   font-weight: bold;
 }
 
-/* Founder page main */
+/* Founder Page */
 .founder-page { padding: 60px 20px; text-align: center; }
 .founder-page h2 { margin-bottom: 20px; font-size: 32px; }
 .founder-page p { font-size: 18px; margin-bottom: 30px; }
