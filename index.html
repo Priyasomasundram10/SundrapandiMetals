@@ -1,62 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sundrapandi Metals Sdn. Bhd.</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sundrapandi Metals Sdn. Bhd.</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome for the service icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-pE4hq0er8W9V1sw3n+6Kzp3Xhm0SLwDf+M+u5mRIyp13Z+Dzs4mC/D9t6E7/2LjNp/cUnXKzkI1Lv7D+Dr8hpA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#services">SERVICES</a></li>
-                <li><a href="#contact">CONTACT</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Hero Section -->
-    <section id="hero">
-        <img src="scrap-metal-image.jpg" alt="Scrap Metal Recycling">
-        <div class="hero-text">
-            <h1>SCRAP METAL RECYCLING</h1>
-            <p>We pay competitive prices for all types of scrap metal.</p>
-            <a href="#about" class="btn">LEARN MORE</a>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about">
-        <h2>ABOUT US</h2>
-        <p>We specialise in scrap purchasing and recycling scrap metal. We call to providing competitive pricing customer-focused services.</p>
-        <p>Our focus on environmental responsibility through efficient recycling processes.</p>
-        <a href="#founder" class="btn">Learn More About the Founder</a>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services">
-        <h2>OUR SERVICES</h2>
-        <ul>
-            <li>Scrap Metal Collection</li>
-            <li>Metal Processing</li>
-            <li>Roll-Off Containers</li>
+  <header>
+    <div class="container header-container">
+      <h1 class="logo">Sundrapandi Metals Sdn. Bhd.</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="founder.html">About Us</a></li>
+          <li><a href="#services">Services</a></li>
         </ul>
-    </section>
+      </nav>
+    </div>
+  </header>
 
-    <!-- Founder Section -->
-    <section id="founder">
-        <h2>Founder: Sundrapandi Muthusamy</h2>
-        <p>Founded by Sundrapandi Muthusamy, Sundrapandi Metals Sdn. Bhd. has established itself as a leader in high-quality metal products.</p>
-        <p>Sundrapandi Muthusamy, with a passion for precision and innovation, started this company to provide reliable and top-tier metals for various industries. The company is committed to quality and customer satisfaction.</p>
-    </section>
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h2>Scrap Metal Recycling</h2>
+      <p>We pay competitive prices for all types of scrap metal.</p>
+      <a href="#about" class="btn">Learn More</a>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 Sundrapandi Metals Sdn. Bhd. All rights reserved.</p>
-    </footer>
+  <section id="about" class="about-section">
+    <div class="container about-container">
+      <div class="about-text">
+        <h3>About Us</h3>
+        <p>We specialise in scrupurchasing and recycling scrap metal.</p>
+        <p>We call to providing competitive, customer‑focused services.</p>
+        <p>Our focus on environmental care informs efficient recycling processes.</p>
+      </div>
+
+      <div class="services" id="services">
+        <h3>Our Services</h3>
+        <div class="service-item">
+          <i class="fas fa-dumpster"></i>
+          <div>
+            <h4>Scrap Metal Collection</h4>
+            <p>Pick up of ferrous and non‑ferrous metals.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-industry"></i>
+          <div>
+            <h4>Metal Processing</h4>
+            <p>Sort, shred, and prepare metals for recycling.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-truck-container"></i>
+          <div>
+            <h4>Roll‑Off Containers</h4>
+            <p>Provide containers for easy scrap metal disposal.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="founder-section">
+    <h3>Founder</h3>
+    <p>Sundrapandi Muthusamy</p>
+  </section>
 </body>
 </html>
