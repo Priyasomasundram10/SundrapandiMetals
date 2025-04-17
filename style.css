@@ -1,4 +1,4 @@
-/* General Styles */
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +11,7 @@ body {
     color: #333;
 }
 
+/* Header Navigation */
 header {
     background-color: #1e3d58;
     color: white;
@@ -21,10 +22,11 @@ header {
 header nav ul {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 header nav ul li {
-    display: inline;
     margin: 0 15px;
 }
 
@@ -33,11 +35,12 @@ header nav ul li a {
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
+    text-transform: uppercase;
 }
 
+/* Hero Section */
 #hero {
     position: relative;
-    background-color: #333;
     color: white;
     text-align: center;
     padding: 100px 20px;
@@ -88,19 +91,14 @@ header nav ul li a {
     background-color: #e04b28;
 }
 
+/* Section Styles */
 section {
     padding: 50px 20px;
     text-align: center;
     margin-bottom: 50px;
 }
 
-h2 {
-    font-size: 2.5em;
-    color: #333;
-    margin-bottom: 20px;
-    font-weight: bold;
-}
-
+/* About Section */
 #about, #founder {
     background-color: #fff;
     border-radius: 10px;
@@ -114,6 +112,14 @@ h2 {
     transform: translateY(-10px);
 }
 
+#about h2, #founder h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Services Section */
 #services ul {
     list-style-type: none;
 }
@@ -123,6 +129,7 @@ h2 {
     margin: 10px 0;
 }
 
+/* Footer */
 footer {
     background-color: #1e3d58;
     color: white;
@@ -132,4 +139,35 @@ footer {
 
 footer p {
     font-size: 1.1em;
+}
+
+/* Fix Alignment Issues with Flexbox */
+#about, #services {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about p, #services p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Add Some Margin to Buttons */
+.btn {
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #f15a29;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2em;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Button Hover */
+.btn:hover {
+    background-color: #e04b28;
 }
